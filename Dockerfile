@@ -1,4 +1,4 @@
-FROM 361428600572.dkr.ecr.ap-south-1.amazonaws.com/we-stage-demo-cicd:latest
+FROM nginx
 
 COPY index.html /usr/share/nginx/html
 COPY linux.png /usr/share/nginx/html
